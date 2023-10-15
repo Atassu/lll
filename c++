@@ -23,8 +23,8 @@ int main()
     std::cout << "My major is " << myMajor << endl;
 
     // Display a personal statement
-   std::string personalStatement = "I am taking this course to expand my knowledge in programming and gain practical experience in the industry.";
-   std::cout << personalStatement << endl;
+    std::string personalStatement = "I am taking this course to expand my knowledge in programming and gain practical experience in the industry.";
+    std::cout << personalStatement << endl;
 
     // Get the current date and time
     std::string month = "October ";
@@ -33,7 +33,7 @@ int main()
     // Display the date
     std::cout << "Today is " << month << day << "th" << endl;
 
-   std::cout << stars << endl;
+    std::cout << stars << endl;
 
     return 0;
 }
