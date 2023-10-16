@@ -1,0 +1,32 @@
+/*
+ * Class: CMSC140 CRN
+ * Instructor: Prof. Ping Wei Tsai
+ * Project<number> 2
+ * Description: (Develop a program that displays brief information about you)
+ * Due Date: 09/25
+ * I pledge that I have completed the programming assignment independently.
+   I have not copied the code from a student or any source.
+   I have not given my code to any student.
+   Print your Name here: Afomia Tassu 
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Constants for your name and major
+    const string name = "Afomia Tassu";
+    const string major = "General Studies in STEM";
+
+    // Variables for address and phone number
+    string address = "7520 Maple Ave, Takoma Park, MD, 20912";
+    string phoneNumber = "301-393-7111";
+
+    // Display all information using a single cout statement
+    cout << "Name: " << name << endl
+         << "Address: " << address << endl
+         << "Phone Number: " << phoneNumber << endl
+         << "Major: " << major << endl;
+
+    return 0;
+}
