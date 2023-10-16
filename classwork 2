@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Constants for your name and major
+    const string name = "Afomia Tassu";
+    const string major = "General Studies in STEM";
+
+    // Variables for address and phone number
+    string address = "7520 Maple Ave, Takoma Park, MD, 20912";
+    string phoneNumber = "301-393-7111";
+
+    // Display all information using a single cout statement
+    cout << "Name: " << name << endl
+         << "Address: " << address << endl
+         << "Phone Number: " << phoneNumber << endl
+         << "Major: " << major << endl;
+
+    return 0;
+} 
+
